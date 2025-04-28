@@ -6,3 +6,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', Welcome::class);
 
 Route::get("/home", \App\Livewire\HomePage::class);
+
+Route::get("/customer", \App\Livewire\CustomerPage::class);
